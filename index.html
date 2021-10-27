@@ -156,14 +156,14 @@
 									tanto, el interés en uno de los principales factores que
 									resalta la creatividad de nuestro proyecto.
 								</p>
-								<div
-									class="col-lg-6 d-flex align-items-center"
-									data-aos="zoom-out"
-									data-aos-delay="200"
-								>
-									<img src="assets/img/about.jpeg" class="img-fluid" alt="" />
-								</div>
 							</div>
+						</div>
+						<div
+							class="col-lg-6 d-flex align-items-center"
+							data-aos="zoom-out"
+							data-aos-delay="200"
+						>
+							<img src="assets/img/about.jpeg" class="img-fluid" alt="" />
 						</div>
 					</div>
 				</div>
@@ -328,6 +328,24 @@
 								</p>
 							</div>
 						</div>
+
+						<div
+							class="col-lg-4 col-md-6"
+							data-aos="fade-up"
+							data-aos-delay="400"
+						>
+							<div class="service-box green">
+								<i class="ri-discuss-line icon"></i>
+								<h3>Soporte</h3>
+								<p>
+									Estaremos alli para solucionar sus dudas, antes, durante y
+									despues de la compra.
+								</p>
+								<a href="#" class="read-more"
+									><span>Read More</span> <i class="bi bi-arrow-right"></i
+								></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -404,14 +422,7 @@
 					</header>
 
 					<div class="row" data-aos="fade-up" data-aos-delay="100">
-						<div class="col-lg-12 d-flex justify-content-center">
-							<ul id="portfolio-flters">
-								<li data-filter="*" class="filter-active">Todos</li>
-								<li data-filter=".filter-app">Estructuras</li>
-								<li data-filter=".filter-card">Informacion</li>
-								<li data-filter=".filter-web">Diseño Empresarial</li>
-							</ul>
-						</div>
+						<div class="col-lg-12 d-flex justify-content-center"></div>
 					</div>
 
 					<div
@@ -435,75 +446,6 @@
 											data-gallery="portfolioGallery"
 											class="portfokio-lightbox"
 											title="Ludoteca En Forma De Domo"
-											><i class="bi bi-plus"></i
-										></a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-							<div class="portfolio-wrap">
-								<img
-									src="assets/img/portfolio/portfolio-4.jpg"
-									class="img-fluid"
-									alt=""
-								/>
-								<div class="portfolio-info">
-									<h4>Folleto</h4>
-									<p>Folleto Empresarial</p>
-									<div class="portfolio-links">
-										<a
-											href="assets/img/portfolio/portfolio-4.jpg"
-											data-gallery="portfolioGallery"
-											class="portfokio-lightbox"
-											title="Card 2"
-											><i class="bi bi-plus"></i
-										></a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-							<div class="portfolio-wrap">
-								<img
-									src="assets/img/portfolio/portfolio-5.jpg"
-									class="img-fluid"
-									alt=""
-								/>
-								<div class="portfolio-info">
-									<h4>Membrete</h4>
-									<p>Membrete Empresarial</p>
-									<div class="portfolio-links">
-										<a
-											href="assets/img/portfolio/portfolio-5.jpg"
-											data-gallery="portfolioGallery"
-											class="portfokio-lightbox"
-											title="Web 2"
-											><i class="bi bi-plus"></i
-										></a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-							<div class="portfolio-wrap">
-								<img
-									src="assets/img/portfolio/portfolio-7.jpg"
-									class="img-fluid"
-									alt=""
-								/>
-								<div class="portfolio-info">
-									<h4>Folleto</h4>
-									<p>Folleto Domo</p>
-									<div class="portfolio-links">
-										<a
-											href="assets/img/portfolio/portfolio-7.jpg"
-											data-gallery="portfolioGallery"
-											class="portfokio-lightbox"
-											title="Card 1"
 											><i class="bi bi-plus"></i
 										></a>
 									</div>
@@ -559,6 +501,65 @@
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="col-lg-6">
+							<form
+								action="forms/contact.php"
+								method="post"
+								class="php-email-form"
+							>
+								<div class="row gy-4">
+									<div class="col-md-6">
+										<input
+											type="text"
+											name="name"
+											class="form-control"
+											placeholder="Tu Nombre"
+											required
+										/>
+									</div>
+
+									<div class="col-md-6">
+										<input
+											type="email"
+											class="form-control"
+											name="email"
+											placeholder="Tu Correo"
+											required
+										/>
+									</div>
+
+									<div class="col-md-12">
+										<input
+											type="text"
+											class="form-control"
+											name="subject"
+											placeholder="Asunto"
+											required
+										/>
+									</div>
+
+									<div class="col-md-12">
+										<textarea
+											class="form-control"
+											name="message"
+											rows="6"
+											placeholder="Mensaje"
+											required
+										></textarea>
+									</div>
+
+									<div class="col-md-12 text-center">
+										<div class="loading">Enviando</div>
+										<div class="error-message"></div>
+										<div class="sent-message">
+											Tu Mensaje A Sido Enviado. Muchas Gracias
+										</div>
+
+										<button type="submit">Enviar Mensaje</button>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
